@@ -2,7 +2,7 @@
   description = "A NixOS flake that includes all packages from configuration.nix";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-stable"; # Use a specific branch or commit
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05"; # Use a specific branch or commit
   };
 
   outputs = { self, nixpkgs, ... }@inputs: {
