@@ -103,6 +103,17 @@
     pkgs.neovim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
     pkgs.brightnessctl
     pkgs.hyprcursor
+    pkgs.browsh
+    pkgs.cheese
+    pkgs.grim
+    pkgs.hyprpicker
+    pkgs.hyprshot
+    pkgs.jq
+    pkgs.libnotify
+    pkgs.nemo
+    pkgs.osu-lazer
+    pkgs.protonvpn-gui
+    pkgs.slurp
     pkgs.hyprpaper
     pkgs.kitty
     pkgs.git
