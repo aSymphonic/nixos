@@ -115,7 +115,7 @@
     pkgs.jq
     pkgs.libnotify
     pkgs.nemo
-    pkgs.osu-lazer
+    pkgs.osu-lazer-bin
     pkgs.protonvpn-gui
     pkgs.slurp
     pkgs.hyprpaper
