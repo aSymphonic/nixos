@@ -107,6 +107,7 @@
     pkgs.firefox
     pkgs.brightnessctl
     pkgs.hyprcursor
+    pkgs.luajitPackages.luarocks-nix
     pkgs.browsh
     pkgs.cheese
     pkgs.grim
