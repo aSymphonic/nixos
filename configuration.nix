@@ -105,6 +105,8 @@
   environment.systemPackages = with pkgs; [
     pkgs.neovim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
     pkgs.firefox
+    pkgs.python314
+    pkgs.libgccjit
     pkgs.brightnessctl
     pkgs.hyprcursor
     pkgs.luajitPackages.luarocks-nix
