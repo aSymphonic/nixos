@@ -107,6 +107,7 @@
     pkgs.firefox
     pkgs.python314
     pkgs.libgccjit
+    pkgs.ripgrep
     pkgs.brightnessctl
     pkgs.hyprcursor
     pkgs.luajitPackages.luarocks-nix
