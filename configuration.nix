@@ -104,34 +104,35 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-    pkgs.neovim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-    pkgs.firefox
+	pkgs.android-studio
 	pkgs.wofi
-    pkgs.python314
-    pkgs.libgccjit
-    pkgs.ripgrep
+    pkgs.brave
     pkgs.brightnessctl
-    pkgs.hyprcursor
-    pkgs.luajitPackages.luarocks-nix
     pkgs.browsh
     pkgs.cheese
+    pkgs.fastfetch
+    pkgs.firefox
+    pkgs.git
     pkgs.grim
+    pkgs.hyprcursor
+    pkgs.hyprland
+    pkgs.hyprpaper
     pkgs.hyprpicker
     pkgs.hyprshot
     pkgs.jq
+    pkgs.kitty
+    pkgs.libgccjit
     pkgs.libnotify
+    pkgs.luajitPackages.luarocks-nix
     pkgs.nemo
+    pkgs.neovim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
     pkgs.osu-lazer-bin
     pkgs.protonvpn-gui
+    pkgs.python314
+    pkgs.ripgrep
     pkgs.slurp
-    pkgs.hyprpaper
-    pkgs.kitty
-    pkgs.git
-    pkgs.fastfetch
-    pkgs.wget
-    pkgs.hyprland
     pkgs.waybar
-    pkgs.brave
+    pkgs.wget
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
